@@ -9,7 +9,10 @@
         "Microsoft.Compute/galleries/images/versions/write",
         "Microsoft.Compute/images/write",
         "Microsoft.Compute/images/read",
-        "Microsoft.Compute/images/delete"
+        "Microsoft.Compute/images/delete",
+        "Microsoft.Network/virtualNetworks/read",
+        "Microsoft.Network/virtualNetworks/subnets/join/action"
+
     ],
     "NotActions": [
   
