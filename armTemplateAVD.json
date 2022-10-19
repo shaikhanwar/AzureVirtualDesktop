@@ -80,19 +80,19 @@
         "type": "PowerShell",
         "name": "installFsLogix",
         "runElevated": true,
-        "scriptUri": "https://raw.githubusercontent.com/lenvolk/images-using-azure-image-builder/main/LenVolk/avd_fslogix.ps1"
+        "scriptUri": "https://raw.githubusercontent.com/shaikhanwar/AzureVirtualDesktop/main/08_FSLogix.ps1"
       },
       {
         "type": "PowerShell",
         "name": "RegEdit",
         "runElevated": true,
-        "scriptUri": "https://raw.githubusercontent.com/lenvolk/images-using-azure-image-builder/main/LenVolk/regedit.ps1"
+        "scriptUri": "https://raw.githubusercontent.com/shaikhanwar/AzureVirtualDesktop/main/09_RegistryModify.ps1"
       },
       {
         "type": "PowerShell",
         "name": "AVD_Opt",
         "runElevated": true,
-        "scriptUri": "https://raw.githubusercontent.com/lenvolk/images-using-azure-image-builder/main/LenVolk/Optimize_OS_for_AVD.ps1"
+        "scriptUri": "https://raw.githubusercontent.com/shaikhanwar/AzureVirtualDesktop/main/Optimize_OS_AVD.ps1"
       },
       {
         "type": "WindowsRestart",
