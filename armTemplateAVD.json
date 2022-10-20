@@ -74,7 +74,11 @@
         "type": "PowerShell",
         "name": "installFsLogix",
         "runElevated": true,
-        "scriptUri": "09_FSLogix.ps1"
+        "scripts": [
+
+          ".\\09_FSLogix.ps1"
+  
+        ]
       },
       {
         "type": "PowerShell",
