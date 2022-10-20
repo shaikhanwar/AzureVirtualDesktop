@@ -72,16 +72,6 @@
       },
       {
         "type": "PowerShell",
-        "name": "installFsLogix",
-        "runElevated": true,
-        "scripts": [
-
-          ".\\09_FSLogix.ps1"
-  
-        ]
-      },
-      {
-        "type": "PowerShell",
         "name": "RegEdit",
         "runElevated": true,
         "scriptUri": "https://raw.githubusercontent.com/shaikhanwar/AzureVirtualDesktop/main/09_RegistryModify.ps1"
