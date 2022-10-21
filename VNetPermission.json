@@ -1,0 +1,22 @@
+{
+    "Name": "Azure Image Builder Image for Network Custom Role",
+    "IsCustom": true,
+    "Description": "Image Builder access to network, you should delete or split out as appropriate",
+    "Actions": [
+
+      "Microsoft.Network/virtualNetworks/read",
+      "Microsoft.Network/virtualNetworks/subnets/join/action"
+
+    ],
+    "NotActions": [
+  
+    ],
+    "AssignableScopes": 
+    
+    [
+      "/subscriptions/<subscriptionID>/resourceGroups/<rgName>"
+    ]
+
+  }
+
+
