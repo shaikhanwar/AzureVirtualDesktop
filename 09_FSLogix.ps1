@@ -8,8 +8,6 @@ function Write-Log {
 $LocalWVDpath            = "c:\temp\"
 $FSLogixURI              = 'https://aka.ms/fslogix_download'
 $FSInstaller             = 'FSLogixAppsSetup.zip'
-$ProfilePath             = "\\avdfilesprd.file.core.windows.net\profiles"
-
 
 Invoke-WebRequest -Uri $FSLogixURI -OutFile "$LocalWVDpath$FSInstaller"
 
