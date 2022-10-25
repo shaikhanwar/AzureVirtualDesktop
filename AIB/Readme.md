@@ -1,16 +1,16 @@
-# Abstracts
+## Abstracts
 
 # **Using PowerShell to Create a Windows Virtual Desktop Custom Image using Azure VM Image Builder**
 
 ---
-# Workshop
+## Workshop
 
 In this workshop, you will automate using the Azure VM Image Builder, and distibute to the Azure Shared Image Gallery, where you can replicate regions, control the scale, and share inside and outside your organizations. To simplify deploying an AIB configuration template with PowerShell CLI.
 
 This walk through is intended to be a copy and paste exercise however you may have to specify key variable values pertaining to your environment, and will provide you with a custom Windows 11 22H2 Multi Session Server image, showing you how you can easily create a custom image.
 
 ---
-# Step 1: Set up Login and context
+## Step 1: Set up Login and context
 
 ```powershell
 Try {
@@ -43,7 +43,7 @@ catch {
 
 ```
 ---
-# Step 2: Register Providers for Azure Image Builder
+## Step 2: Register Providers for Azure Image Builder
 ```powershell
 Try {
 
