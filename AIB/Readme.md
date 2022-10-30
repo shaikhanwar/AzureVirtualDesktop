@@ -803,8 +803,9 @@ catch {
 
 ## Next Steps
 
-You can now build VMs from the Image, Azure Virtual Desktop
+You can now build VMs from the Image, or deploy it while you configure Azure Virtual Desktop
 
 https://learn.microsoft.com/en-us/powershell/module/az.compute/new-azvm?view=azps-9.0.1&viewFallbackFrom=azps-2.5.0#examples
+https://learn.microsoft.com/en-us/azure/virtual-desktop/overview
 
 ---
