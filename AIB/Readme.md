@@ -800,3 +800,11 @@ catch {
        }
 ```
 ---
+
+## Next Steps
+
+You can now build VMs from the Image, Azure Virtual Desktop
+
+https://learn.microsoft.com/en-us/powershell/module/az.compute/new-azvm?view=azps-9.0.1&viewFallbackFrom=azps-2.5.0#examples
+
+---
