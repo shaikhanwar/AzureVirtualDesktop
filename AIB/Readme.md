@@ -5,7 +5,7 @@
 ---
 ## Workshop
 
-In this workshop, you will automate using the Azure VM Image Builder, and distibute to the Azure Shared Image Gallery, where you can replicate regions, control the scale, and share inside and outside your organizations. To simplify deploying an AIB configuration template with PowerShell CLI.
+In this workshop, you will automate using the Azure VM Image Builder, and distribute to the Azure Shared Image Gallery, where you can replicate regions, control the scale, and share inside and outside your organizations. To simplify deploying an AIB configuration template with PowerShell CLI.
 
 This walk through is intended to be a copy and paste exercise however you may have to specify key variable values pertaining to your environment, and will provide you with a custom Windows 11 22H2 Multi Session Server image, showing you how you can easily create a custom image.
 
@@ -42,7 +42,7 @@ catch {
 ---
 ## Step 2: Register Providers for Azure Image Builder
 
-In this step, we are trying to register required providers for Azure Image Builder, it does few minutes to complete. You need to ensure the providers are registered before proceeding further.
+In this step, we are trying to register required providers for Azure Image Builder, it does take few minutes to complete. You need to ensure the providers are registered before proceeding further.
 
 ```powershell
 Try {
